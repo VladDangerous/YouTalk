@@ -1,7 +1,7 @@
 @font-face {
-    font-family: "RealFont";
-    src: url("./LibertinusKeyboard-Regular.woff2") format("woff2");
-    font-weight: 400;
+    font-family: 'RealFont';
+    src: url("zhuan_FuturaNowScript-Bd.woff2") format(woff2);
+    font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
@@ -12,7 +12,7 @@
 }
 
 body{
-    font-family: 'RealFont';
+    font-family: "RealFont";
     margin: 0;
     padding: 20px;
     background-color: antiquewhite;
@@ -29,6 +29,8 @@ body{
 
 #loadButton{
     align-self: center;
+    font-family: "RealFont";
+    font-weight: bold;
     padding: 12px 24px;
     border-radius: 4px;
     background-color: darkkhaki;
@@ -52,7 +54,7 @@ body{
 
 h1{
     text-align: center;
-    font-weight: normal;
+    font-weight: 400;
 }
 
 .loader{
